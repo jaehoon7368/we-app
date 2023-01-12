@@ -19,6 +19,7 @@ public class WeKihun2Servlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("술고래 김기훈");
 		response.getWriter()
 		.append("Served at: ")
 		.append(request.getContextPath())
