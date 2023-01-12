@@ -8,33 +8,21 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class WeHyundongsServlet
+ * Servlet implementation class WeAw1786Servlet
  */
 @WebServlet("/hello")
-public class WeHyundongsServlet extends HttpServlet {
+public class WeAw1786Servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	
-		
-		System.out.println("푸쉬 테스트원 ! ");
-		response.getWriter().append("Served at: ").append(request.getContextPath()).append("hyundongs가 /hello 에 응답했습니다.");
-		
-
-	
+		// TODO Auto-generated method stub
+		response.getWriter()
+			.append("Served at: ")
+			.append(request.getContextPath())
+			.append("aw1786이 /hello에 응답했습니다.");
 	}
 
-
-
-
 }
-
-
-
-
-
-
-
